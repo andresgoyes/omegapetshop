@@ -1,0 +1,42 @@
+.productsContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 100px;
+  justify-items: center;
+  justify-content: center;
+  padding: 60px;
+
+  .product {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    button {
+      border: none;
+      border-radius: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #cecece;
+    }
+  }
+}
